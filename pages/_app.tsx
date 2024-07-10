@@ -8,12 +8,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <NoSsr>
       <MantineProvider defaultColorScheme="auto">
         <Component {...pageProps} />
-        {/* 添加全局样式 */}
-        <style jsx global>{`
-          body {
-            font-family: "LXGW WenKai", sans-serif;
-          }
-        `}</style>
       </MantineProvider>
     </NoSsr>
   )

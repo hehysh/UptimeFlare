@@ -31,3 +31,7 @@
     color: var(--mantine-color-white);
   }
 }
+
+body {
+  font-family: "LXGW WenKai", sans-serif;
+}
