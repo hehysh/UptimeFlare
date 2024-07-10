@@ -1,5 +1,5 @@
 import '@mantine/core/styles.css'
-import '/global.css'
+import '../styles/global.css'
 import type { AppProps } from 'next/app'
 import { MantineProvider } from '@mantine/core'
 import NoSsr from '@/components/NoSsr'
