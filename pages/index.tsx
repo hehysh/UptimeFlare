@@ -50,6 +50,7 @@ export default function Home({
       <Head>
         <title>{pageConfig.title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
       </Head>
 
       <main className={inter.className}>
