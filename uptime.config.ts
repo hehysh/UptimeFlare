@@ -30,18 +30,6 @@ const workerConfig = {
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000,
-      // [OPTIONAL] headers to be sent
-      headers: {
-        'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
-      },
-      // [OPTIONAL] body to be sent
-      body: 'Hello, world!',
-      // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
-      responseKeyword: 'success',
-      // [OPTIONAL] if specified, the check will run in your specified region,
-      // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
     },
     {
       id: 'umami',
@@ -49,7 +37,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://u.verynb.me',
       tooltip: '网站流量数据监控',
-    },
+    }
   ],
   notification: {
     // [Optional] apprise API server URL
