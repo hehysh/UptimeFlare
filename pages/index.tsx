@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import '/global.css';
 
 import { Inter } from 'next/font/google'
 import { MonitorState, MonitorTarget } from '@/uptime.types'
