@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import { Inter } from 'next/font/google'
 import { MonitorState, MonitorTarget } from '@/uptime.types'
 import { KVNamespace } from '@cloudflare/workers-types'
 import { pageConfig, workerConfig } from '@/uptime.config'
@@ -49,7 +50,6 @@ export default function Home({
       <Head>
         <title>{pageConfig.title}</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
         <link rel="stylesheet" href="/global.css"></link>
       </Head>
 
