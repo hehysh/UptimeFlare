@@ -32,7 +32,7 @@ export default function Header() {
               variant="gradient"
               gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
             >
-              UptimeFlare
+              晴雀堂监造坊
             </Text>
           </a>
         </div>
