@@ -39,7 +39,7 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://u.verynb.me',
+      target: 'https://u.verynb.me/dashboard',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: '晴网站流量数据监控分析',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
