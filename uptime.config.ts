@@ -32,12 +32,22 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      // `id` should be unique, history will be kept if the `id` remains constant
       id: 'umami',
-      name: '晴雀堂御膳坊',
+      // `name` is used at status page and callback message
+      name: '晴雀堂御膳房',
+      // `method` should be a valid HTTP Method
       method: 'GET',
+      // `target` is a valid URL
       target: 'https://u.verynb.me',
-      tooltip: '网站流量数据监控',
-      expectedCodes: [200]
+      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
+      tooltip: '晴网站流量数据监控分析',
+      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+      statusPageLink: 'https://u.verynb.me',
+      // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
+      expectedCodes: [200],
+      // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
+      timeout: 10000,
     }
   ],
   notification: {
