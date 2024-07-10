@@ -37,6 +37,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://u.verynb.me',
       tooltip: '网站流量数据监控',
+      expectedCodes: [200]
     }
   ],
   notification: {
