@@ -19,8 +19,7 @@ export default function MonitorDetail({
           {monitor.name}
         </Text>
         <Text mt="sm" fw={700}>
-          No data available, please make sure you have deployed your workers with latest config and
-          check your worker status!
+          没有可用的数据，请确保你已经搭建好了Wokers并检查Wokers的状态！
         </Text>
       </>
     )
@@ -65,7 +64,7 @@ export default function MonitorDetail({
         )}
 
         <Text mt="sm" fw={700} style={{ display: 'inline', color: getColor(uptimePercent, true) }}>
-          Overall: {uptimePercent}%
+          总体在线率: {uptimePercent}%
         </Text>
       </div>
 
