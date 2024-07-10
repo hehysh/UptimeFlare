@@ -41,7 +41,7 @@ const workerConfig = {
       // `target` is a valid URL
       target: 'https://u.verynb.me/dashboard',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: '晴网站流量数据监控分析',
+      tooltip: '网站流量数据监控分析',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://u.verynb.me',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
